@@ -279,6 +279,7 @@ textarea.input{height:88px;padding:14px 15px;resize:none;line-height:1.45}
 body.has-main .screen.active{padding-bottom:calc(84px + var(--safe-b))}
 body.has-main.tabbar-on .screen.active{padding-bottom:calc(150px + var(--safe-b))}
 body.tabbar-on .fallback-main{bottom:calc(78px + var(--safe-b))}
+.demo-note{margin:10px 12px 0;padding:11px 13px;border-radius:14px;background:var(--red-soft);border:1px solid rgba(225,6,0,.35);color:var(--text-2);font-size:12.5px;line-height:1.45;font-weight:600}
 .err-box{margin:40px 16px;text-align:center;color:var(--muted)}
 </style>
 </head>
@@ -309,6 +310,7 @@ body.tabbar-on .fallback-main{bottom:calc(78px + var(--safe-b))}
     <button class="sort-btn" id="btnSort"><span id="sortLabel">Сначала новые</span>
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M7 10l5 5 5-5"/></svg></button>
   </div>
+  <div class="demo-note" id="demoNote" hidden>Демо-каталог: магазин не достучался до бота. Новые товары и заказы появятся, когда бот будет доступен по https-адресу из API_PUBLIC_URL.</div>
   <div class="grid" id="grid"></div>
   <div id="catalogEmpty" hidden></div>
 </section>
@@ -955,6 +957,7 @@ async function load() {
       config = demo.config; products = demo.products; S.demo = true;
     }
     S.config = config; S.products = products;
+    $('#demoNote').hidden = !S.demo;
     S.byId = Object.fromEntries(products.map(p => [p.id, p]));
     S.loaded = true;
     $('#shopName').textContent = config.shop_name;
