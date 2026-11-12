@@ -1,0 +1,279 @@
+{
+ "config": {
+  "shop_name": "REDLINE",
+  "seller": "weencult",
+  "categories": [
+   {
+    "id": "sneakers",
+    "title": "👟 Кроссовки"
+   },
+   {
+    "id": "hoodies",
+    "title": "🧥 Худи"
+   },
+   {
+    "id": "jackets",
+    "title": "🧥 Куртки"
+   },
+   {
+    "id": "bags",
+    "title": "👜 Сумки"
+   },
+   {
+    "id": "watches",
+    "title": "⌚ Часы"
+   },
+   {
+    "id": "tech",
+    "title": "🎧 Техника"
+   },
+   {
+    "id": "accessories",
+    "title": "🧢 Аксессуары"
+   }
+  ],
+  "conditions": {
+   "new": "Новое",
+   "excellent": "Отличное",
+   "used": "Б/у"
+  },
+  "delivery": [
+   "СДЭК",
+   "Почта России",
+   "Самовывоз",
+   "Авито Доставка"
+  ]
+ },
+ "products": [
+  {
+   "id": 12,
+   "title": "AirPods Pro 2 (USB-C)",
+   "brand": "Apple",
+   "category": "tech",
+   "size": "—",
+   "condition": "new",
+   "price": 18490,
+   "old_price": 22990,
+   "discount": 20,
+   "description": "Новые, запечатанные, версия с USB-C. Активация после покупки — гарантия Apple год. Серийник продиктую до оплаты, можно проверить на сайте Apple.",
+   "photos": [
+    "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=900&h=1125&q=80&fm=jpg&fit=crop",
+    "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=900&h=1125&q=80&fm=jpg&fit=crop&crop=focalpoint&fp-x=0.62&fp-y=0.45&fp-z=2.2"
+   ],
+   "sold": false,
+   "is_new": true,
+   "created_at": "2026-11-12T18:35:27+00:00"
+  },
+  {
+   "id": 1,
+   "title": "Nike Free RN Flyknit «University Red»",
+   "brand": "Nike",
+   "category": "sneakers",
+   "size": "42",
+   "condition": "new",
+   "price": 11990,
+   "old_price": 14990,
+   "discount": 20,
+   "description": "Оригинал, куплены в Nike Store в Дубае. Ни разу не носились, полный комплект: коробка, бумага, бирки. Лёгкие, верх из Flyknit отлично держит стопу. По размеру: 42 EU / 27 см. Отправлю в день оплаты.",
+   "photos": [
+    "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=900&h=1125&q=80&fm=jpg&fit=crop",
+    "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=900&h=1125&q=80&fm=jpg&fit=crop&crop=focalpoint&fp-x=0.62&fp-y=0.45&fp-z=2.2",
+    "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=900&h=1125&q=80&fm=jpg&fit=crop&crop=focalpoint&fp-x=0.35&fp-y=0.62&fp-z=2.6"
+   ],
+   "sold": false,
+   "is_new": true,
+   "created_at": "2026-11-12T13:48:27+00:00"
+  },
+  {
+   "id": 11,
+   "title": "Наушники WH-1000XM4 «Black»",
+   "brand": "Sony",
+   "category": "tech",
+   "size": "—",
+   "condition": "excellent",
+   "price": 17990,
+   "old_price": 24990,
+   "discount": 28,
+   "description": "Лучший шумодав в своём классе. Аккумулятор держит ~28 часов, амбушюры без трещин. Кейс, кабели и переходник для самолёта — всё в комплекте. Проверю при вас по видеосвязи.",
+   "photos": [
+    "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=900&h=1125&q=80&fm=jpg&fit=crop",
+    "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=900&h=1125&q=80&fm=jpg&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5&fp-z=2.0"
+   ],
+   "sold": false,
+   "is_new": true,
+   "created_at": "2026-11-12T08:59:27+00:00"
+  },
+  {
+   "id": 4,
+   "title": "Худи oversize «Heather Grey»",
+   "brand": "Essentials",
+   "category": "hoodies",
+   "size": "M",
+   "condition": "new",
+   "price": 9490,
+   "old_price": 11900,
+   "discount": 20,
+   "description": "Новое, с бирками. Плотный футер с начёсом 450 г/м², свободный крой, спущенное плечо, двойной капюшон. Подойдёт на рост 175–185 см. Замеры пришлю в ЛС.",
+   "photos": [
+    "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=900&h=1125&q=80&fm=jpg&fit=crop",
+    "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=900&h=1125&q=80&fm=jpg&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.35&fp-z=1.8"
+   ],
+   "sold": false,
+   "is_new": true,
+   "created_at": "2026-11-12T01:47:27+00:00"
+  },
+  {
+   "id": 2,
+   "title": "Nike Air Max 1 «White / Orange»",
+   "brand": "Nike",
+   "category": "sneakers",
+   "size": "41",
+   "condition": "excellent",
+   "price": 13490,
+   "old_price": 16990,
+   "discount": 21,
+   "description": "Носились пару раз по сухой погоде, состояние как у новых: подошва чистая, заломов на носке нет. Air-капсула целая. Родная коробка в комплекте. 41 EU / 26 см.",
+   "photos": [
+    "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=900&h=1125&q=80&fm=jpg&fit=crop",
+    "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=900&h=1125&q=80&fm=jpg&fit=crop&crop=focalpoint&fp-x=0.55&fp-y=0.5&fp-z=2.0"
+   ],
+   "sold": false,
+   "is_new": true,
+   "created_at": "2026-11-11T16:12:27+00:00"
+  },
+  {
+   "id": 8,
+   "title": "Сумка GG Marmont Small Matelassé",
+   "brand": "Gucci",
+   "category": "bags",
+   "size": "One size",
+   "condition": "excellent",
+   "price": 129000,
+   "old_price": 159000,
+   "discount": 19,
+   "description": "Оригинал, есть чек из ЦУМа, пыльник и коробка. Стёганая кожа шеврон, фурнитура с антикварным золотом без царапин. Цепочка 60 см. Проверка в Legit-сервисе за мой счёт.",
+   "photos": [
+    "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=900&h=1125&q=80&fm=jpg&fit=crop",
+    "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=900&h=1125&q=80&fm=jpg&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.4&fp-z=2.0"
+   ],
+   "sold": false,
+   "is_new": true,
+   "created_at": "2026-11-11T01:47:27+00:00"
+  },
+  {
+   "id": 6,
+   "title": "Кожаная косуха «Biker Black»",
+   "brand": "AllSaints",
+   "category": "jackets",
+   "size": "S",
+   "condition": "excellent",
+   "price": 21900,
+   "old_price": 29900,
+   "discount": 27,
+   "description": "Натуральная кожа ягнёнка, мягкая и уже разношенная по фигуре. Фурнитура YKK без потёртостей, подклад целый. Мужской S / женский M.",
+   "photos": [
+    "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=900&h=1125&q=80&fm=jpg&fit=crop",
+    "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=900&h=1125&q=80&fm=jpg&fit=crop&crop=focalpoint&fp-x=0.4&fp-y=0.4&fp-z=2.2",
+    "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=900&h=1125&q=80&fm=jpg&fit=crop&crop=focalpoint&fp-x=0.6&fp-y=0.7&fp-z=2.4"
+   ],
+   "sold": false,
+   "is_new": true,
+   "created_at": "2026-11-10T20:59:27+00:00"
+  },
+  {
+   "id": 9,
+   "title": "Сумка top handle «Scarlet»",
+   "brand": "Furla",
+   "category": "bags",
+   "size": "One size",
+   "condition": "new",
+   "price": 23900,
+   "old_price": 31500,
+   "discount": 24,
+   "description": "Новая, не носилась — подарок, не подошёл цвет. Сафьяновая кожа, держит форму, внутри два отделения. Съёмный ремень через плечо в комплекте.",
+   "photos": [
+    "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=900&h=1125&q=80&fm=jpg&fit=crop",
+    "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=900&h=1125&q=80&fm=jpg&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.42&fp-z=2.0"
+   ],
+   "sold": false,
+   "is_new": false,
+   "created_at": "2026-11-09T20:59:27+00:00"
+  },
+  {
+   "id": 5,
+   "title": "Худи Hooded Chase Sweat «Hamilton Brown»",
+   "brand": "Carhartt WIP",
+   "category": "hoodies",
+   "size": "L",
+   "condition": "used",
+   "price": 5990,
+   "old_price": 7990,
+   "discount": 25,
+   "description": "Носилось около года, без катышков и пятен, цвет не выгорел. Немного растянуты манжеты — на фото видно. Классика Carhartt, хлопок 58%.",
+   "photos": [
+    "https://images.unsplash.com/photo-1578768079052-aa76e52ff62e?w=900&h=1125&q=80&fm=jpg&fit=crop",
+    "https://images.unsplash.com/photo-1578768079052-aa76e52ff62e?w=900&h=1125&q=80&fm=jpg&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.45&fp-z=2.0"
+   ],
+   "sold": false,
+   "is_new": false,
+   "created_at": "2026-11-08T20:59:27+00:00"
+  },
+  {
+   "id": 10,
+   "title": "Хронограф Eco-Drive «Black Steel»",
+   "brand": "Citizen",
+   "category": "watches",
+   "size": "44 мм",
+   "condition": "excellent",
+   "price": 27900,
+   "old_price": 34900,
+   "discount": 20,
+   "description": "Солнечная батарея — менять батарейку не нужно никогда. Сапфировое стекло, WR100. Носились полгода, на браслете мелкие волосяные следы. Полный комплект, гарантия до 2027.",
+   "photos": [
+    "https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?w=900&h=1125&q=80&fm=jpg&fit=crop",
+    "https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?w=900&h=1125&q=80&fm=jpg&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5&fp-z=2.3"
+   ],
+   "sold": false,
+   "is_new": false,
+   "created_at": "2026-11-07T20:59:27+00:00"
+  },
+  {
+   "id": 7,
+   "title": "Полевая куртка M-65 «Olive»",
+   "brand": "Alpha Industries",
+   "category": "jackets",
+   "size": "M",
+   "condition": "excellent",
+   "price": 14500,
+   "old_price": 18900,
+   "discount": 23,
+   "description": "Культовая M-65: хлопок с нейлоном, четыре кармана, капюшон спрятан в воротник. Состояние отличное, носилась весной. Есть отстёгивающаяся подстёжка.",
+   "photos": [
+    "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=900&h=1125&q=80&fm=jpg&fit=crop",
+    "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=900&h=1125&q=80&fm=jpg&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.45&fp-z=1.8"
+   ],
+   "sold": false,
+   "is_new": false,
+   "created_at": "2026-11-06T20:59:27+00:00"
+  },
+  {
+   "id": 3,
+   "title": "Nike Air Force 1 '07 «Wheat»",
+   "brand": "Nike",
+   "category": "sneakers",
+   "size": "44",
+   "condition": "excellent",
+   "price": 12990,
+   "old_price": null,
+   "discount": 0,
+   "description": "Нубук, оттенок «Wheat». Аккуратная носка один сезон, обработаны водоотталкивающей пропиткой. Без коробки. Отличная пара на осень.",
+   "photos": [
+    "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=900&h=1125&q=80&fm=jpg&fit=crop",
+    "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=900&h=1125&q=80&fm=jpg&fit=crop&crop=focalpoint&fp-x=0.45&fp-y=0.55&fp-z=2.0"
+   ],
+   "sold": true,
+   "is_new": false,
+   "created_at": "2026-11-03T20:59:27+00:00"
+  }
+ ]
+}
